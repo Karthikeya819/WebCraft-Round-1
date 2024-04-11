@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+}
+.profile-info{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.profile-info-pad1{
+    flex:1;
+}
+.profile-info-pad2{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    
+}
+.pad2-left{
+    flex: 1;
+}
+.pad2-center{
+    flex: 7;
+}
+.pad2-center h1{
+    font-size:56px;
+    color: #313237;
+    letter-spacing: 1px;
+}
+.pad2-center p{
+    font-size: 30px;
+    color: #929296;
+}
+.pad2-right{
+    flex: 1;
+}
+.profile-info-pad3{
+    flex: 1;
+}
+
+.profile-photo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.content-info{
+    flex:3;
+    display: flex;
+    flex-direction: row;
+}
+.info-pad1-pad2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.top{
+    display: flex;
+     align-items: center;
+}
+.top span{
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.bottom span{
+    font-size: 24px;
+    color: #929296;
+    margin-left: 60px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    
+}
+
+.open-sans-text-light {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.open-sans-text-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.open-sans-text-bold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+footer{
+    height: 24px;
+    background-color: #E44C27;
+    border: 0;
+    margin-bottom: 0;
+}
